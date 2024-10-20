@@ -1,4 +1,4 @@
-<local:MyCard Title="历史上的今天" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="历史上的今天" Margin="0,0,0,15" CanSwap="False">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="拉巴斯（La Paz),玻利维亚实际首都及最大城市。拉巴斯是议会、政府所在地，是全国的政治、经济、文化中心和交通枢纽，又是拉巴" />
 	</StackPanel>
