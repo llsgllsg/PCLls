@@ -39,21 +39,14 @@ try:
 
             print("旧内容:\n", content)  # 打印旧内容
             
-            # 更新 MyCard 的 Title 和 TextBlock 的内容
-            new_content = re.sub(
-                r'(<local:MyCard Title="事件：)(.*?)(，类型：.*?")(.*?)(</local:MyCard>)',
-                r'\1' + title + r'，类型：' + type_event + r'\3\4',
-                content
-            )
-        
-            # 更新 TextBlock 的内容
-            new_content = re.sub(
-                r'(<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text=")(.*?)(" />)',
-                r'\1' + desc_text + r'\3',
-                new_content
-            )
+            # 建立 expected 新内容字符串
+            new_content = f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">\n' \
+                          f'\t<StackPanel Margin="25,40,23,15">\n' \
+                          f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n' \
+                          f'\t</StackPanel>\n' \
+                          f'</local:MyCard>\n'
 
-            print("新内容:\n", new_content)  # 打印新内容
+            print("构建的新内容:\n", new_content)  # 打印新内容
             
             # 仅当内容不同的时候才写入新的内容
             if content != new_content:
