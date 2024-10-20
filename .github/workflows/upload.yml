@@ -1,0 +1,20 @@
+name: Upload to FTP
+
+on:
+  schedule:
+    # 使用 cron 表达式：UTC 时间每天 17:10 对应北京时间 01:10
+    - cron: '10 17 * * *'
+
+jobs:
+  ftp_upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Upload to FTP using Python Script
+        env:
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          python upload_to_ftp.py
