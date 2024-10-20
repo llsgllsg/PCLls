@@ -1,5 +1,5 @@
 <local:MyCard Title="历史上的今天" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="保罗·狄拉克，OM，FRS（Paul Adrien Maurice Dirac，1902年8月8日－1984年10月20日），英国理论物理学家，量子力学的奠基者之一" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="奥马尔·穆阿迈尔·卡扎菲，【另译：欧麦尔·穆阿迈尔·卡扎菲（阿拉伯语معمر： القذافي‎罗马语：Mu'ammar al-Qadh" />
 	</StackPanel>
 </local:MyCard>
