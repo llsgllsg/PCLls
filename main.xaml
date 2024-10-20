@@ -1,6 +1,6 @@
 <local:MyCard Title="历史上的今天" Margin="0,0,0,15" CanSwap="False">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="拉巴斯（La Paz),玻利维亚实际首都及最大城市。拉巴斯是议会、政府所在地，是全国的政治、经济、文化中心和交通枢纽，又是拉巴" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="赫伯特·克拉克·胡佛是美国第31任总统，赫伯特·克拉克·胡佛生于爱荷华州，毕业于斯坦福大学，作为一个采矿工程师。1897年，胡佛" />
 	</StackPanel>
 </local:MyCard>
 <local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->
