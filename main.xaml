@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：美国总统赫伯特·克拉克·胡佛逝世，类型：死亡" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="事件：瑞典化学家阿尔弗雷德·诺贝尔出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="赫伯特·克拉克·胡佛是美国第31任总统，赫伯特·克拉克·胡佛生于爱荷华州，毕业于斯坦福大学，作为一个采矿工程师。1897年，胡佛" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="[1] 阿尔弗雷德·伯纳德·诺贝尔（Alfred Bernhard Nobel, 1833.10.21－1896.12.10），是瑞典化学家、工程师、发明家、军工" />
 	</StackPanel>
 </local:MyCard>
 
