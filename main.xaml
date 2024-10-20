@@ -7,7 +7,7 @@
      <StackPanel Margin="24,35,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
                Foreground="{DynamicResource ColorBrush2}" FontSize="20"
-               Text="欢迎使用Grilled Fish page!" />
+               Text="欢迎使用历史上的今天主页!" />
           <Calendar HorizontalAlignment="Center" Margin="0,12,0,10" />
           <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Center"
                Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />
