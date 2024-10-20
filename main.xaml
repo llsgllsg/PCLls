@@ -1,8 +1,9 @@
-<local:MyCard Title="历史上的今天" Margin="0,0,0,15" CanSwap="False">
+<local:MyCard Title="事件：美国总统赫伯特·克拉克·胡佛逝世，类型：死亡" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·杜威（John Dewey)是实用主义的集大成者。一位评论家说他是“实用主义神圣实用主义神圣家族的家长”（M.怀特）。如果说皮" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="赫伯特·克拉克·胡佛是美国第31任总统，赫伯特·克拉克·胡佛生于爱荷华州，毕业于斯坦福大学，作为一个采矿工程师。1897年，胡佛" />
 	</StackPanel>
 </local:MyCard>
+
 <local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->
      <StackPanel Margin="24,35,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
@@ -12,8 +13,7 @@
           <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Center"
                Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />
      </StackPanel>
-</local:MyCard>
-
+</local:MyCard> 
 
 <local:MyCard Margin="0,0,0,8">
      <StackPanel Margin="24,6,24,12">
