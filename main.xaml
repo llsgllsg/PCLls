@@ -43,6 +43,6 @@
                Logo="pack://application:,,,/images/blocks/CommandBlock.png" Title="网页捷径"
                Type="Clickable"
                Info="打开网页捷径页面" EventType="打开帮助"
-               EventData="https://cn-sy1.rains3.com/123456/main.json" />
+               EventData="https://cn-sy1.rains3.com/123456/jj.json" />
      </StackPanel>
 </local:MyCard>
