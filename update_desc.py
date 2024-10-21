@@ -100,6 +100,7 @@ try:
             f.write('               EventData="https://cn-sy1.rains3.com/123456/jj.json" />\n')
             f.write('     </StackPanel>\n')
             f.write('</local:MyCard>\n')
+            f.<!--十分感谢MFn233的简单主页的部分代码，此主页使用了MFn233简单主页的代码，更新历史事件使用了一个不知名API和github actions自动部署，使用了雨云的存储服务，提升国内访问速度-->
 
         print("附加内容已成功添加到 main.xaml 文件中。")
 
