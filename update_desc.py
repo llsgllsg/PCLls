@@ -98,8 +98,6 @@ try:
             f.write('               Type="Clickable"\n')
             f.write('               Info="打开网页捷径页面" EventType="打开帮助"\n')
             f.write('               EventData="https://cn-sy1.rains3.com/123456/jj.json" />\n')
-            f.write('     </StackPanel>\n')
-            f.write('</local:MyCard>\n')
             f.write('<!--十分感谢MFn233的简单主页的部分代码此主页使用了MFn233简单主页的代码更新历史事件使用了一个不知名API和github actions自动部署-->\n')
             f.write('<local:MyListItem Margin="-2,0,0,0" Info="llsgllsg"\n')
             f.write(' Logo="pack://application:,,,/images/blocks/GoldBlock.png" Title="关于作者"\n')
@@ -107,7 +105,7 @@ try:
             f.write(' EventData="关于作者|我是llsgllsg，啥都会一丢丢的程序员，该主页部分使用了MFn233的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue\n\n如果你真的很希望更多地了解我，欢迎访问我的网站: https://llsgllsg.rth1.xyz/\n\n©llsgllsg 2024"\n')
             f.write(' Type="Clickable" />\n')
             f.write('</StackPanel>\n')
-
+            f.write('</local:MyCard>\n')
             
         print("附加内容已成功添加到 main.xaml 文件中。")
 
