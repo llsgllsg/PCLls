@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：山姆·休斯顿就任得克萨斯共和国首任总统，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：开滦煤矿工人大罢工，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="山姆·休斯顿（Sam Houston，又作Samuel Houston），（1793年3月2日－1863年7月26日），美国最出名的牛仔之一。少年就流浪成为印" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1922年10月23日，清晨6点，开滦五矿5万多名工人开始举行声势浩大的反帝总同盟罢工。" />
 	</StackPanel>
 </local:MyCard>
 
