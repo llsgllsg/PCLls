@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：开滦煤矿工人大罢工，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：伊斯曼和柯达公司联合生产柯达相机，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1922年10月23日，清晨6点，开滦五矿5万多名工人开始举行声势浩大的反帝总同盟罢工。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="伊士曼柯达公司EastmanKodakCompany，简称柯达公司，是世界上最大的影像产品及相关服务的生产和供应商，总部位于美国纽约州罗切" />
 	</StackPanel>
 </local:MyCard>
 
