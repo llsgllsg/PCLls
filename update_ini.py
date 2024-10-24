@@ -1,0 +1,62 @@
+import configparser
+import os
+from ftplib import FTP
+import sys
+
+# FTP 上传函数
+def upload_to_ftp(ftp_host, ftp_port, ftp_user, ftp_password, file_path):
+    try:
+        ftp = FTP()
+        ftp.connect(ftp_host, ftp_port)
+        ftp.login(user=ftp_user, passwd=ftp_password)
+        
+        # 打开并上传文件
+        with open(file_path, 'rb') as file:
+            ftp.storbinary(f'STOR {os.path.basename(file_path)}', file)
+
+        ftp.quit()
+        print("File uploaded successfully.")
+    except Exception as e:
+        print(f"FTP upload failed: {e}")
+        sys.exit(1)
+
+# 更新 ini 文件函数
+def update_ini_file():
+    ini_file = 'main.xaml.ini'
+    
+    # 如果文件不存在，则创建
+    if not os.path.exists(ini_file):
+        with open(ini_file, 'w') as file:
+            file.write('[version]\nnumber=1.1')
+
+    config = configparser.ConfigParser()
+    config.read(ini_file)
+
+    # 读取现有数字并将其拆分为主版本和次版本
+    current_version = config.get('version', 'number', fallback='1.1')
+    major, minor = map(int, current_version.split('.'))
+
+    # 自动更新次版本号
+    minor += 1
+
+    # 更新回文件
+    new_version = f"{major}.{minor}"
+    config.set('version', 'number', new_version)
+
+    with open(ini_file, 'w') as configfile:
+        config.write(configfile)
+
+    print(f"Version updated to {new_version}")
+
+if __name__ == "__main__":
+    # 更新 ini 文件
+    update_ini_file()
+
+    # 获取 FTP 相关信息
+    ftp_host = 'cn-sy1.rains3.com'
+    ftp_port = 8021
+    ftp_user = os.getenv('FTP_USERNAME')
+    ftp_password = os.getenv('FTP_PASSWORD')
+
+    # 上传文件到 FTP
+    upload_to_ftp(ftp_host, ftp_port, ftp_user, ftp_password, 'main.xaml.ini')
