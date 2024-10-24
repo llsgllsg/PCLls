@@ -33,9 +33,16 @@ def update_ini_file():
         with open(ini_file, 'w') as file:
             file.write('1')
     
-    # 读取现有版本号并递增
+    # 读取现有版本号并处理小数点情况
     with open(ini_file, 'r') as file:
-        current_version = int(file.read().strip())
+        current_version = file.read().strip()
+    
+    # 检查是否为小数，如果是，取整数部分
+    try:
+        current_version = int(float(current_version))  # 将小数转换为整数
+    except ValueError:
+        print("Invalid version format. Resetting to 1.")
+        current_version = 1
 
     # 版本号递增
     new_version = current_version + 1
