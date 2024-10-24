@@ -4,18 +4,23 @@ from ftplib import FTP
 import sys
 
 # FTP 上传函数
-def upload_to_ftp(ftp_host, ftp_port, ftp_user, ftp_password, file_path):
+def upload_to_ftp(ftp_host, ftp_port, ftp_user, ftp_password, file_path, remote_directory):
     try:
         ftp = FTP()
         ftp.connect(ftp_host, ftp_port)
         ftp.login(user=ftp_user, passwd=ftp_password)
         
-        # 打开并上传文件
+        # 切换到指定目录
+        ftp.cwd(remote_directory)
+        
+        # 获取文件名并上传
+        remote_file = os.path.basename(file_path)
+        
         with open(file_path, 'rb') as file:
-            ftp.storbinary(f'STOR {os.path.basename(file_path)}', file)
+            ftp.storbinary(f'STOR {remote_file}', file)
 
         ftp.quit()
-        print("File uploaded successfully.")
+        print(f"File uploaded successfully to {remote_directory}.")
     except Exception as e:
         print(f"FTP upload failed: {e}")
         sys.exit(1)
@@ -57,6 +62,9 @@ if __name__ == "__main__":
     ftp_port = 8021
     ftp_user = os.getenv('FTP_USERNAME')
     ftp_password = os.getenv('FTP_PASSWORD')
+    
+    # 指定上传的文件夹路径
+    remote_directory = '/123456'
 
     # 上传文件到 FTP
-    upload_to_ftp(ftp_host, ftp_port, ftp_user, ftp_password, 'main.xaml.ini')
+    upload_to_ftp(ftp_host, ftp_port, ftp_user, ftp_password, 'main.xaml.ini', remote_directory)
