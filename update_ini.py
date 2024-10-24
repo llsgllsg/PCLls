@@ -1,4 +1,3 @@
-import configparser
 import os
 from ftplib import FTP
 import sys
@@ -25,31 +24,25 @@ def upload_to_ftp(ftp_host, ftp_port, ftp_user, ftp_password, file_path, remote_
         print(f"FTP upload failed: {e}")
         sys.exit(1)
 
-# 更新 ini 文件函数
+# 更新 ini 文件函数，仅包含纯数字版本号
 def update_ini_file():
     ini_file = 'main.xaml.ini'
     
-    # 如果文件不存在，则创建
+    # 如果文件不存在，则创建并写入初始版本号 1
     if not os.path.exists(ini_file):
         with open(ini_file, 'w') as file:
-            file.write('1.1')
+            file.write('1')
+    
+    # 读取现有版本号并递增
+    with open(ini_file, 'r') as file:
+        current_version = int(file.read().strip())
 
-    config = configparser.ConfigParser()
-    config.read(ini_file)
+    # 版本号递增
+    new_version = current_version + 1
 
-    # 读取现有数字并将其拆分为主版本和次版本
-    current_version = config.get('version', 'number', fallback='1.1')
-    major, minor = map(int, current_version.split('.'))
-
-    # 自动更新次版本号
-    minor += 1
-
-    # 更新回文件
-    new_version = f"{major}.{minor}"
-    config.set('version', 'number', new_version)
-
-    with open(ini_file, 'w') as configfile:
-        config.write(configfile)
+    # 将新版本号写回文件
+    with open(ini_file, 'w') as file:
+        file.write(str(new_version))
 
     print(f"Version updated to {new_version}")
 
