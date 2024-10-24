@@ -25,13 +25,17 @@ jobs:
     - name: Run update_ini.py and upload to FTP
       run: python update_ini.py
       env:
-        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}  # 通过 GitHub Secrets 提供用户名
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}  # 通过 GitHub Secrets 提供密码
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
 
-    - name: Commit changes
+    - name: Pull latest changes from main
       run: |
         git config --local user.name "github-actions"
         git config --local user.email "actions@github.com"
+        git pull origin main  # 拉取远程分支的更新
+
+    - name: Commit and push changes
+      run: |
         git add main.xaml.ini
         git commit -m "Auto-update main.xaml.ini"
-        git push
+        git push origin main
