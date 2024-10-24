@@ -32,7 +32,7 @@ def update_ini_file():
     # 如果文件不存在，则创建
     if not os.path.exists(ini_file):
         with open(ini_file, 'w') as file:
-            file.write('[version]\nnumber=1.1')
+            file.write('1.1')
 
     config = configparser.ConfigParser()
     config.read(ini_file)
