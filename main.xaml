@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：伊斯曼和柯达公司联合生产柯达相机，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：中国著名经济学家许涤新出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="伊士曼柯达公司EastmanKodakCompany，简称柯达公司，是世界上最大的影像产品及相关服务的生产和供应商，总部位于美国纽约州罗切" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="曾用名许声闻，方志治平。广东揭西人。1933年，毕业于国立上海商学院（现上海财经大学），并加入中国共产党。曾任社联研究部副" />
 	</StackPanel>
 </local:MyCard>
 
