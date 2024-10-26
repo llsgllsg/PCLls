@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：法国汉学家伯希和逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：中国政治家谢非逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="保罗·伯希和（Paul Pelliot，1878年5月28日-1945年10月26日），世界著名的法国汉学家、探险家。就学于巴黎大学，主修英语，后入" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="谢非，汉族，1932年11月出生于广东省陆丰县（今汕尾市陆河县）的客家人[1-2]   ，原中共广东省委书记。1947年11" />
 	</StackPanel>
 </local:MyCard>
 
