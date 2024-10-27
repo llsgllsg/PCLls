@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：中国政治家谢非逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：中国开国少将邓克明逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="谢非，汉族，1932年11月出生于广东省陆丰县（今汕尾市陆河县）的客家人[1-2]   ，原中共广东省委书记。1947年11" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="邓克明（1906～1983），名必克，宇恒林，湖南省安化县通溪乡人，出身贫苦。1930年参加中国工农红军，同年加入中国共产党。曾任" />
 	</StackPanel>
 </local:MyCard>
 
