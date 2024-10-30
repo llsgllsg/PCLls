@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：俄国沙皇尼古拉二世颁布俄国首部宪法，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：贝尼托·墨索里尼组织内阁，被任命为意大利总理，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="尼古拉二世·亚历山德罗维奇·罗曼诺夫（俄语：Николай II Александрович，1868年—1918年），俄罗斯帝国末" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="贝尼托·墨索里尼（意大利语：Benito Mussolini），（1883年7月29日——1945年4月28日），意大利法西斯党党魁、独裁者，第二次世" />
 	</StackPanel>
 </local:MyCard>
 
