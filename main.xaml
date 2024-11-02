@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：法国和那瓦尔皇后玛丽·安托瓦内特出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：香港著名儿童文学作家何紫逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="玛丽·安托瓦内特（Marie Antoinette 1755年11月2日~1793年10月16日），法国国王路易十六的妻子，原奥地利帝国公主，生于维也纳" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="何紫，香港著名儿童文学家·在香港完成小学及中学课程，毕业后的二十年暑，不断在香港多份报刊上撰写专栏，同时致力於儿童文学的" />
 	</StackPanel>
 </local:MyCard>
 
