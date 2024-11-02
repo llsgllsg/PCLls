@@ -1,6 +1,6 @@
-<local:MyCard Title="事件：著名社会学家、人类学家、民族学家费孝通出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：法国和那瓦尔皇后玛丽·安托瓦内特出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="费孝通，汉族，江苏吴江（今苏州市吴江区）人。著名社会学家、人类学家、民族学家、社会活动家，中国社会学和人类学的奠基人之" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="玛丽·安托瓦内特（Marie Antoinette 1755年11月2日~1793年10月16日），法国国王路易十六的妻子，原奥地利帝国公主，生于维也纳" />
 	</StackPanel>
 </local:MyCard>
 
@@ -58,6 +58,7 @@ EventType="弹出窗口"
     BorderThickness="0,2,0,0" BorderBrush="#954024">
     <StackPanel Margin="40,15,0,20">
       <TextBlock Text="PCL2历史上的今天主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />
+      <TextBlock> Originally By: llsgllsg<LineBreak />
         <LineBreak /> 订阅地址: <Underline>
           <local:MyTextButton Margin="0,0,0,-3" EventType="复制文本"
             Text="点击复制订阅地址"
