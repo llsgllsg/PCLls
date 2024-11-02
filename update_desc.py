@@ -111,6 +111,7 @@ try:
             f.write('    BorderThickness="0,2,0,0" BorderBrush="#954024">\n')
             f.write('    <StackPanel Margin="40,15,0,20">\n')
             f.write('      <TextBlock Text="PCL2历史上的今天主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />\n')
+            f.write('      <TextBlock> Originally By: llsgllsg<LineBreak />\n')
             f.write('        <LineBreak /> 订阅地址: <Underline>\n')
             f.write('          <local:MyTextButton Margin="0,0,0,-3" EventType="复制文本"\n')
             f.write('            Text="点击复制订阅地址"\n')
