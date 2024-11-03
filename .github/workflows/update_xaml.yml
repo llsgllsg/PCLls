@@ -20,4 +20,4 @@ jobs:
 
       - name: Run update script
         run: |
-          python update_xaml.py  # 确保文件在根目录
+          python xaml.py  # 确保文件在根目录
