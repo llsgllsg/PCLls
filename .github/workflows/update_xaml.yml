@@ -1,0 +1,30 @@
+name: Update XAML
+
+on:
+  schedule:
+    - cron: '5 17 * * *'  # 每天UTC时间17:05运行
+  push:
+    branches:
+      - main  # 或你希望监视的分支
+  workflow_dispatch:  # 添加手动触发功能
+
+jobs:
+  update_xaml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 'latest'  # 使用最新版本的Python
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt  # 如果有依赖库，确保你有这个文件
+
+      - name: Run update script
+        run: |
+          python update_xaml.py  # 运行你的Python脚本
