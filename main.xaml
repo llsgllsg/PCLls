@@ -1,6 +1,121 @@
-<local:MyCard Title="事件：香港著名儿童文学作家何紫逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<StackPanel.Resources>
+    <Style TargetType="TextBlock" x:Key="AlertText">
+        <Setter Property="FontWeight" Value="ExtraBold" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Margin" Value="50,13,0,0" />
+    </Style>
+
+    <Style TargetType="Path" x:Key="AnimatedPathStyle">
+        <Setter Property="Fill" Value="{DynamicResource ColorBrush4}" />
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Fill" Value="{DynamicResource ColorBrush2}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="RoundedGroupBoxStyle" TargetType="{x:Type GroupBox}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type GroupBox}">
+                    <Border CornerRadius="10" BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        Background="{TemplateBinding Background}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <!-- 标题栏 -->
+                            <Border Grid.Row="0" BorderThickness="1,1,1,0"
+                                Background="{TemplateBinding BorderBrush}" CornerRadius="10,10,0,0"
+                                Height="30">
+                                <!-- 设置标题栏的字体 -->
+                                <Label Content="{TemplateBinding Header}" Padding="3"
+                                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                                    Foreground="White"
+                                    FontFamily="YouYuan" FontSize="14" />
+                            </Border>
+                            <!-- 内容 -->
+                            <ContentPresenter Grid.Row="1" Margin="{TemplateBinding Padding}" />
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <ControlTemplate TargetType="ContentControl" x:Key="Separator">
+        <Grid Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush5}" StrokeThickness="1.5"
+                HorizontalAlignment="Center" Stretch="Fill" Grid.Column="0" />
+            <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Center" FontSize="14"
+                Foreground="{DynamicResource ColorBrush5}" Grid.Column="1"
+                VerticalAlignment="Center" />
+            <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush5}" StrokeThickness="1.5"
+                HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" />
+        </Grid>
+    </ControlTemplate>
+</StackPanel.Resources>
+<StackPanel.Triggers>
+    <EventTrigger RoutedEvent="StackPanel.Loaded">
+        <BeginStoryboard>
+            <Storyboard x:Name="animation" RepeatBehavior="Forever">
+                <ColorAnimation BeginTime="0:0:2"
+                    Storyboard.TargetName="AlertText1"
+                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                    From="#954024" To="#00000000" Duration="0:0:3" />
+                <ColorAnimation BeginTime="0:0:14"
+                    Storyboard.TargetName="AlertText1"
+                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                    From="#00000000" To="#954024" Duration="0:0:3" />
+                <ColorAnimation BeginTime="0:0:4"
+                    Storyboard.TargetName="AlertText2"
+                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                    From="#00000000" To="#954024" Duration="0:0:3" />
+                <ColorAnimation BeginTime="0:0:7"
+                    Storyboard.TargetName="AlertText2"
+                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                    From="#954024" To="#00000000" Duration="0:0:3" />
+                <ColorAnimation BeginTime="0:0:9"
+                    Storyboard.TargetName="AlertText3"
+                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                    From="#00000000" To="#954024" Duration="0:0:3" />
+                <ColorAnimation BeginTime="0:0:12"
+                    Storyboard.TargetName="AlertText3"
+                    Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"
+                    From="#954024" To="#00000000" Duration="0:0:3" />
+            </Storyboard>
+        </BeginStoryboard>
+    </EventTrigger>
+</StackPanel.Triggers>
+
+<local:MyCard Title="欢迎" Margin="-28,-26,-28,20" Height="40">
+    <TextBlock x:Name="AlertText1" Style="{StaticResource AlertText}" Foreground="#954024">
+        历史上的今天主页~
+    </TextBlock>
+    <TextBlock x:Name="AlertText2" Style="{StaticResource AlertText}" Foreground="#00000000">
+        简约~~~
+    </TextBlock>
+    <TextBlock x:Name="AlertText3" Style="{StaticResource AlertText}" Foreground="#00000000">
+        历史上的今天！
+    </TextBlock>
+    <TextBlock Margin="0,13,80,0" Foreground="{DynamicResource ColorBrush5}"
+        HorizontalAlignment="Right"
+        Text="llsgllsg " FontWeight="ExtraBold" FontStyle="Italic" />
+    <local:MyIconTextButton Margin="0,5,5,6" Height="35" HorizontalAlignment="Right"
+        Text="刷新" EventType="刷新主页" Grid.Column="1"
+        LogoScale="0.8" ColorType="Highlight"
+        Logo="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z" />
+</local:MyCard><local:MyCard Title="事件：中国现代作家梁实秋逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="何紫，香港著名儿童文学家·在香港完成小学及中学课程，毕业后的二十年暑，不断在香港多份报刊上撰写专栏，同时致力於儿童文学的" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="梁实秋（1903年1月6日—1987年11月3日），浙江省杭县（今杭州）人，出生于北京，原名梁治华，字实秋，笔名子佳、秋郎、程淑等，中国现当代散文家、学者、文学批评家、翻译家，景星学社社员，武学泰斗施承志弟子。" />
 	</StackPanel>
 </local:MyCard>
 
