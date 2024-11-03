@@ -3,9 +3,6 @@ name: Update XAML
 on:
   schedule:
     - cron: '5 17 * * *'  # 每天UTC时间17:05运行
-  push:
-    branches:
-      - main  # 或你希望监视的分支
   workflow_dispatch:  # 添加手动触发功能
 
 jobs:
@@ -19,11 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.8'  # 1
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt  # 如果有依赖库，确保你有这个文件
+          python-version: '3.8'  
 
       - name: Run update script
         run: |
