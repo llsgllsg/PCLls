@@ -113,9 +113,9 @@
         Text="刷新" EventType="刷新主页" Grid.Column="1"
         LogoScale="0.8" ColorType="Highlight"
         Logo="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z" />
-</local:MyCard><local:MyCard Title="事件：伊朗人质危机爆发，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+</local:MyCard><local:MyCard Title="事件：光纤通讯之父高锟出生，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="伊朗人质危机是伊朗伊斯兰革命后，美国大使馆被占领，66名美国外交官和平民被扣留为人质的一次危机。这场人质危机始于1979年11" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="高锟，华裔物理学家，生于中国上海，祖籍江苏金山（今上海市金山区），拥有英国、美国国籍并持中国香港居民身份，目前在香港和" />
 	</StackPanel>
 </local:MyCard>
 
@@ -123,7 +123,7 @@
      <StackPanel Margin="24,35,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
                Foreground="{DynamicResource ColorBrush2}" FontSize="20"
-               Text="欢迎使用历史上的今天主页!" />
+               Text="  " />
           <Calendar HorizontalAlignment="Center" Margin="0,12,0,10" />
           <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Center"
                Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />
@@ -142,11 +142,6 @@
                     EventData="https://llsgllsg.rth1.xyz"
                     LogoScale="0.8" ColorType="Highlight"
                     Logo="M13.5,4A1.5,1.5 0 0,0 12,5.5A1.5,1.5 0 0,0 13.5,7A1.5,1.5 0 0,0 15,5.5A1.5,1.5 0 0,0 13.5,4M13.14,8.77C11.95,8.87 8.7,11.46 8.7,11.46C8.5,11.61 8.56,11.6 8.72,11.88C8.88,12.15 8.86,12.17 9.05,12.04C9.25,11.91 9.58,11.7 10.13,11.36C12.25,10 10.47,13.14 9.56,18.43C9.2,21.05 11.56,19.7 12.17,19.3C12.77,18.91 14.38,17.8 14.54,17.69C14.76,17.54 14.6,17.42 14.43,17.17C14.31,17 14.19,17.12 14.19,17.12C13.54,17.55 12.35,18.45 12.19,17.88C12,17.31 13.22,13.4 13.89,10.71C14,10.07 14.3,8.67 13.14,8.77Z" />
-               <local:MyIconTextButton Margin="0,5,0,6" Height="35" HorizontalAlignment="Center"
-                    Text="刷新主页" EventType="刷新主页" Grid.Column="1"
-                    LogoScale="0.8" ColorType="Highlight"
-                    Logo="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z" />
-          </Grid>
           <local:MyListItem Margin="-2,0,0,0"
                Logo="pack://application:,,,/images/blocks/GoldBlock.png" Title="今日人品"
                Info="试试手气！" EventType="今日人品" Type="Clickable" />
@@ -159,11 +154,11 @@
                Type="Clickable"
                Info="打开网页捷径页面" EventType="打开帮助"
                EventData="https://cn-sy1.rains3.com/123456/jj.json" />
-<!--十分感谢MFn233的简单主页的部分代码此主页使用了MFn233简单主页的代码更新历史事件使用了一个不知名API和github actions自动部署-->
+<!--十分感谢MFn233的简单主页的部分代码此主页使用了MFn233简单主页后来——也就是11月3号更新又使用了信标的代码啊啊啊啊啊啊啊啊的代码更新历史事件使用了一个不知名API和github actions自动部署-->
 <local:MyListItem Margin="-2,0,0,0" Info="llsgllsg"
- Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="关于作者"
+ Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="关于项目"
 EventType="弹出窗口"
- EventData="关于作者|我是llsgllsg，啥都会一丢丢的程序员，该主页部分使用了MFn233的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue
+ EventData="关于项目|我是llsgllsg，该主页部分使用了MFn233的代码，后来在11月3号更新上部分使用了信标的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue
 ©llsgllsg 2024"
  Type="Clickable" />
 </StackPanel>
@@ -174,11 +169,6 @@ EventType="弹出窗口"
     <StackPanel Margin="40,15,0,20">
       <TextBlock Text="PCL2历史上的今天主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />
       <TextBlock> Originally By: llsgllsg<LineBreak />
-        <LineBreak /> 订阅地址: <Underline>
-          <local:MyTextButton Margin="0,0,0,-3" EventType="复制文本"
-            Text="点击复制订阅地址"
-            EventData="https://cn-sy1.rains3.com/123456/main.xaml" ToolTip="点击复制到剪贴板" />
-          </Underline> <LineBreak />
           GitHub仓库: <Underline>
             <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"
               Text="https://github.com/llsgllsg/PCLls"
