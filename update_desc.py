@@ -98,7 +98,7 @@ try:
             f.write('               Type="Clickable"\n')
             f.write('               Info="打开网页捷径页面" EventType="打开帮助"\n')
             f.write('               EventData="https://cn-sy1.rains3.com/123456/jj.json" />\n')
-            f.write('<!--十分感谢MFn233的简单主页的部分代码此主页使用了MFn233简单主页后来——也就是11月3号更新又使用了信标的代码啊啊啊啊啊啊啊啊的代码更新历史事件使用了一个不知名API和github actions自动部署-->\n')
+            f.write('<!--十分感谢MFn233的简单主页的部分代码此主页使用了MFn233简单主页后来也就是11月3号更新又使用了信标的代码啊啊啊啊啊啊啊啊的代码更新历史事件使用了一个不知名API和github actions自动部署-->\n')
             f.write('<local:MyListItem Margin="-2,0,0,0" Info="llsgllsg"\n')
             f.write(' Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="关于项目"\n')
             f.write('EventType="弹出窗口"\n')
