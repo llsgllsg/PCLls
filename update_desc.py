@@ -42,7 +42,7 @@ try:
             print("旧内容:\n", content)  # 打印旧内容
             
             # 建立 expected 新内容字符串
-            new_content = f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="300,-325,0,15" CanSwap="False" IsSwaped="True">\n' \
+            new_content = f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="300,-315,0,15" CanSwap="False" IsSwaped="True">\n' \
                           f'\t<StackPanel Margin="25,40,23,15">\n' \
                           f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n' \
                           f'\t</StackPanel>\n' \
