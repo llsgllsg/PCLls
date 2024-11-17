@@ -28,7 +28,7 @@ try:
             # 如果文件不存在，创建文件并写入基本结构
             with open(file_path, "w", encoding='utf-8') as f:
                 f.write(header_content)
-                f.write(f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="300,-300,0,15" CanSwap="False" IsSwaped="True">\n')
+                f.write(f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="300,-305,0,15" CanSwap="False" IsSwaped="True">\n')
                 f.write('\t<StackPanel Margin="25,40,23,15">\n')
                 f.write(f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n')
                 f.write('\t</StackPanel>\n')
@@ -42,7 +42,7 @@ try:
             print("旧内容:\n", content)  # 打印旧内容
             
             # 建立 expected 新内容字符串
-            new_content = f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="300,-315,0,15" CanSwap="False" IsSwaped="True">\n' \
+            new_content = f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="300,-305,0,15" CanSwap="False" IsSwaped="True">\n' \
                           f'\t<StackPanel Margin="25,40,23,15">\n' \
                           f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n' \
                           f'\t</StackPanel>\n' \
