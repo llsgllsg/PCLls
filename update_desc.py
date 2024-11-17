@@ -23,12 +23,12 @@ try:
         file_path = "main.xaml"
         
         # 新增的前缀内容
-        header_content = '<local:MyCard Title="欢迎使用历史上的今天" Margin="10,-285,250,15" CanSwap="False" IsSwaped="True">\n    <StackPanel Margin="25,75,23,15">\n        <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />\n    </StackPanel>\n</local:MyCard>\n'  
+        header_content = '<local:MyCard Title="欢迎使用历史上的今天" Margin="10,0,250,15" CanSwap="False" IsSwaped="True">\n    <StackPanel Margin="25,75,23,15">\n        <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />\n    </StackPanel>\n</local:MyCard>\n'  
         if not os.path.exists(file_path):
             # 如果文件不存在，创建文件并写入基本结构
             with open(file_path, "w", encoding='utf-8') as f:
                 f.write(header_content)
-                f.write(f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">\n')
+                f.write(f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="300,-300,0,15" CanSwap="False" IsSwaped="True">\n')
                 f.write('\t<StackPanel Margin="25,40,23,15">\n')
                 f.write(f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n')
                 f.write('\t</StackPanel>\n')
