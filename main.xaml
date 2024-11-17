@@ -1,4 +1,4 @@
-<local:MyCard Title="欢迎使用历史上的今天" Margin="10,-285,250,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="欢迎使用历史上的今天" Margin="10,0,250,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,75,23,15">
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
