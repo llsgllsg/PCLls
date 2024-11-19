@@ -3,9 +3,9 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：红二军团和红六军团开始长征，类型：事件" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：安史之乱，唐朝军队收复洛阳，类型：事件" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="长征（1934年10月--1936年10月），是中央主力红军（红一方面军）为了摆脱国民党军队的“围剿”，被迫实行战略大转移，退出中央" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="安史之乱是中国唐代所发生的一场政治叛乱，是由安禄山与史思明发动，同中央政权争夺统治权的战争， 也是唐朝由盛而衰的转折点。" />
 	</StackPanel>
 </local:MyCard>
 
