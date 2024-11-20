@@ -3,9 +3,9 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：安史之乱，唐朝军队收复洛阳，类型：事件" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：中华民国国民革命军将领夏国璋逝世，类型：死亡" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="安史之乱是中国唐代所发生的一场政治叛乱，是由安禄山与史思明发动，同中央政权争夺统治权的战争， 也是唐朝由盛而衰的转折点。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="夏国璋(1894-1937) 字超然。广西省容县松山乡沙田村人。中央军校第一分校（南宁分校）上校分队长，追赠中将。" />
 	</StackPanel>
 </local:MyCard>
 
