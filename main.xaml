@@ -3,9 +3,9 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：中华民国国民革命军将领夏国璋逝世，类型：死亡" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：清朝著名封疆大吏林则徐逝世，类型：死亡" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="夏国璋(1894-1937) 字超然。广西省容县松山乡沙田村人。中央军校第一分校（南宁分校）上校分队长，追赠中将。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="林则徐（1785年8月30日－1850年11月22日），福建省侯官（今福州市区）人，字元抚，又字少穆、石麟，晚号俟村老人、俟村退叟、七" />
 	</StackPanel>
 </local:MyCard>
 
