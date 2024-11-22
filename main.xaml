@@ -3,9 +3,9 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：清朝著名封疆大吏林则徐逝世，类型：死亡" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：东法兰克国王奥托一世出生，类型：出生" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="林则徐（1785年8月30日－1850年11月22日），福建省侯官（今福州市区）人，字元抚，又字少穆、石麟，晚号俟村老人、俟村退叟、七" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="奥托一世Otto Ⅰ（912.11.23～973.3.23），德意志萨克森王朝第二代东法兰克国王（936～973），兼意大利国王（或称伦巴第国王）," />
 	</StackPanel>
 </local:MyCard>
 
