@@ -3,9 +3,9 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：东法兰克国王奥托一世出生，类型：出生" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：香港填词人、作家黄沾逝世，类型：死亡" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="奥托一世Otto Ⅰ（912.11.23～973.3.23），德意志萨克森王朝第二代东法兰克国王（936～973），兼意大利国王（或称伦巴第国王）," />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="黄沾（1941年3月16日－2004年11月24日），原名黄湛森，英文名James J.S.Wong，香港著名作家、词曲家。1941年广州出生，1949年随" />
 	</StackPanel>
 </local:MyCard>
 
