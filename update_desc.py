@@ -46,7 +46,10 @@ try:
                           f'\t<StackPanel Margin="25,40,23,15">\n' \
                           f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n' \
                           f'\t</StackPanel>\n' \
-                          f'</local:MyCard>\n'
+                          f'</local:MyCard>\n' \
+                          f'          <local:MyListItem Margin="-2,0,0,0"\n' \
+                          f'               Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容\n"' \n
+                          f'               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q={title}"
 
             print("构建的新内容:\n", new_content)  # 打印新内容
             
@@ -65,7 +68,7 @@ try:
             f.write('     <StackPanel Margin="24,35,24,15">\n')
             f.write('          <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"\n')
             f.write('               Foreground="{DynamicResource ColorBrush2}" FontSize="20"\n')
-            f.write('               Text="  " />\n')
+            f.write('               Text="历史上的今天主页New" />\n')
             f.write('          <Calendar HorizontalAlignment="Center" Margin="0,12,0,10" />\n')
             f.write('          <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Center"\n')
             f.write('               Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />\n')
