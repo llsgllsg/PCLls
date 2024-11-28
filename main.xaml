@@ -3,17 +3,19 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：香港填词人、作家黄沾逝世，类型：死亡" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：元朝皇帝元泰定帝孛儿只斤·也孙铁木儿出生，类型：出生" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="黄沾（1941年3月16日－2004年11月24日），原名黄湛森，英文名James J.S.Wong，香港著名作家、词曲家。1941年广州出生，1949年随" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="孛儿只斤·也孙铁木儿（1293年11月—1328年7月），元朝第六位皇帝，蒙古帝国第十位大汗。他的在位时间是从1323年10月4日至1328年" />
 	</StackPanel>
 </local:MyCard>
-
+          <local:MyListItem Margin="-2,0,0,0"
+               Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=元朝皇帝元泰定帝孛儿只斤·也孙铁木儿出生"            Type="Clickable" />
 <local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->
      <StackPanel Margin="24,35,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
                Foreground="{DynamicResource ColorBrush2}" FontSize="20"
-               Text="  " />
+               Text="历史上的今天主页New" />
           <Calendar HorizontalAlignment="Center" Margin="0,12,0,10" />
           <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Center"
                Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />
