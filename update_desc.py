@@ -48,8 +48,9 @@ try:
                           f'\t</StackPanel>\n' \
                           f'</local:MyCard>\n' \
                           f'          <local:MyListItem Margin="-2,0,0,0"\n' \
-                          f'               Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容\n"' \n
-                          f'               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q={title}"
+                          f'               Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容\n"' \
+                          f'               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q={title}"' \
+                          f'            Type="Clickable" />'
 
             print("构建的新内容:\n", new_content)  # 打印新内容
             
