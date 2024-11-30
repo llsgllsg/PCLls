@@ -23,12 +23,12 @@ try:
         file_path = "main.xaml"
         
         # 新增的前缀内容
-        header_content = '<local:MyCard Title="欢迎使用历史上的今天" Margin="0,0,300,15" CanSwap="False" IsSwaped="True">\n    <StackPanel Margin="25,75,23,15">\n        <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />\n    </StackPanel>\n</local:MyCard>\n'  
+        header_content = '<local:MyCard Title="欢迎使用历史上的今天" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">\n    <StackPanel Margin="25,75,23,15">\n        <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />\n    </StackPanel>\n</local:MyCard>\n'  
         if not os.path.exists(file_path):
             # 如果文件不存在，创建文件并写入基本结构
             with open(file_path, "w", encoding='utf-8') as f:
                 f.write(header_content)
-                f.write(f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="300,-305,0,15" CanSwap="False" IsSwaped="True">\n')
+                f.write(f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">\n')
                 f.write('\t<StackPanel Margin="25,40,23,15">\n')
                 f.write(f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n')
                 f.write('\t</StackPanel>\n')
@@ -42,12 +42,12 @@ try:
             print("旧内容:\n", content)  # 打印旧内容
             
             # 建立 expected 新内容字符串
-            new_content = f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">\n' \
+            new_content = f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">\n' \
                           f'\t<StackPanel Margin="25,40,23,15">\n' \
                           f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n' \
                           f'\t</StackPanel>\n' \
                           f'</local:MyCard>\n' \
-                          f'          <local:MyListItem Margin="-2,0,0,0"\n' \
+                          f'          <local:MyListItem Margin="0,0,0,0"\n' \
                           f'               Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容\n"' \
                           f'               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q={title}"' \
                           f'            Type="Clickable" />'
@@ -65,7 +65,7 @@ try:
 
         # 添加内容
         with open(file_path, "a", encoding='utf-8') as f:  # 以追加模式打开文件
-            f.write('\n<local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->\n')
+            f.write('\n<local:MyCard Margin="0,-6,0,12" Title="欢迎">\n')
             f.write('     <StackPanel Margin="24,35,24,15">\n')
             f.write('          <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"\n')
             f.write('               Foreground="{DynamicResource ColorBrush2}" FontSize="20"\n')
