@@ -1,17 +1,17 @@
-<local:MyCard Title="欢迎使用历史上的今天" Margin="0,0,300,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="欢迎使用历史上的今天" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,75,23,15">
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：美国独立战争结束，类型：事件" Margin="250,-305,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：中国科学家吴有训逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="美国独立战争，是大英帝国和其北美十三州殖民地的革命者，以及几个欧洲强国之间的一场战争。由于英国对殖民地的剥削严重阻碍了" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="吴有训，字正之，著名物理学家、教育家。江西高安人，原为中国科协副主席、中国科学院副院长、研究员。他于1916年入南京高等师" />
 	</StackPanel>
 </local:MyCard>
-          <local:MyListItem Margin="-2,0,0,0"
+          <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=美国独立战争结束"            Type="Clickable" />
-<local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=中国科学家吴有训逝世"            Type="Clickable" />
+<local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
                Foreground="{DynamicResource ColorBrush2}" FontSize="20"
