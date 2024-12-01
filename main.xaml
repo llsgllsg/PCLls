@@ -3,14 +3,14 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：埃克森出资购买美孚公司，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：美裔华人物理学家朱经武出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="标准石油公司后继者之一的纽约标准石油改名为美孚石油 (Mobil)，1999年美孚石油和艾克森石油（标准石油公司后继者之一的纽泽西" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="朱经武教授曾任香港科技大学校长及物理学教授，美国休斯敦大学天普科学讲座教授、物理学系教授及德州超导中心创始主任。.baseIn" />
 	</StackPanel>
-</local:MyCard>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=埃克森出资购买美孚公司"            Type="Clickable" />
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=美裔华人物理学家朱经武出生"            Type="Clickable" /></local:MyCard>
+
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
