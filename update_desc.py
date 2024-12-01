@@ -46,11 +46,11 @@ try:
                           f'\t<StackPanel Margin="25,40,23,15">\n' \
                           f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n' \
                           f'\t</StackPanel>\n' \
-                          f'</local:MyCard>\n' \
                           f'          <local:MyListItem Margin="0,0,0,0"\n' \
                           f'               Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容\n"' \
                           f'               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q={title}"' \
-                          f'            Type="Clickable" />'
+                          f'            Type="Clickable" />' \
+                          f'</local:MyCard>\n' 
 
             print("构建的新内容:\n", new_content)  # 打印新内容
             
