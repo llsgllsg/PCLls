@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：欧洲航海家哥伦布率领船队首次在海地岛登陆，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：澳大利亚足球运动员蒂姆•卡希尔出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="克里斯托弗·哥伦布，意大利航海家、探险家。出生于意大利热那亚，卒于西班牙巴利亚多利德。一生从事航海活动。他相信大地球形说" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="蒂姆·卡希尔（Tim Cahill，1979年12月6日－），出生于澳大利亚悉尼，澳大利亚著名球星。父亲是有爱尔兰血统的英格兰人，母亲是" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=欧洲航海家哥伦布率领船队首次在海地岛登陆"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=澳大利亚足球运动员蒂姆•卡希尔出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
