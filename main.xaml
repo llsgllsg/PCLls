@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：苏联“氢弹之父”萨哈罗夫逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：匈牙利数学家波尔约出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="安德烈·德米特里耶维奇·萨哈罗夫（俄语：Андре́й Дми́триевич Са́харов，姓氏也译作沙卡洛夫；1921" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="波尔约，J．(Bolyai，Janos，1802.12.15-1860.1.27)匈牙利数学家．生于匈牙利特兰尼西瓦亚的科罗日瓦(今罗马尼亚克卢日)；卒于" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=苏联“氢弹之父”萨哈罗夫逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=匈牙利数学家波尔约出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
