@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：比利时国王利奥波德二世逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：上海证券交易所正式开业，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="利奥波德二世（1835年4月9日－1909年12月17日），全名利奥波德·路易斯·菲利普·马里·维克多（Leopold Louis Philippe Marie Vict" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="上海证券交易所（Shanghai Stock Exchange）是中国大陆两所证券交易所之一，位于上海浦东新区。上海证券交易所创立于1990年11月" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=比利时国王利奥波德二世逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=上海证券交易所正式开业"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
