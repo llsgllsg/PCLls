@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：贝多芬第五交响曲在维也纳剧院首演，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：我国著名的妇产科专家林巧稚出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="贝多芬·c小调第五交响曲，作品67号（Symphony No. 5 in C minor, Op. 67），又名命运交响曲（Fate Symphony），德国作曲家路德" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="林巧稚，医学家、中国妇产科学的主要开拓者之一。她是北京协和医院第一位中国籍妇产科主任及首届中国科学院唯一的女学部委员（院士）。是中国现代妇产科学的奠基人之一。" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=贝多芬第五交响曲在维也纳剧院首演"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=我国著名的妇产科专家林巧稚出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
