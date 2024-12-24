@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：阿尔巴尼亚宣布成立共和国，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：苏联解体，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="阿尔巴尼亚位于东南欧巴尔干半岛西岸，北接塞尔维亚与黑山，东北与马其顿相连，东南邻希腊，西濒亚得里亚海和伊奥尼亚海，隔奥" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="苏维埃（俄语：Союз Советских Социалистических Республик，简称CCCP，英语：Union of" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=阿尔巴尼亚宣布成立共和国"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=苏联解体"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
