@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：印度国民大会党成立，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：托马斯·爱迪生拿到收音机的专利，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="印度国民大会党（the Indian National Congress），印度政党，简称印度国大党或国大党，为印度现存历史最长的政治组织，也是印" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="托马斯·阿尔瓦·爱迪生（英文名:Thomas Alva Edison，1847年－1931年），[1] 世界著名的发明家、物理学家、企业家，拥有众" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=印度国民大会党成立"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=托马斯·爱迪生拿到收音机的专利"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
