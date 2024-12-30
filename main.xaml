@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：香港明星梅艳芳逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：我国著名戏剧家洪深出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="梅艳芳（1963.10.10-2003.12.30）出生于香港，祖籍广西合浦，歌影双栖发展的代表艺人之一，香港演艺人协会的创办人之一及首位女" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="洪深（1894年12月31日—1955年8月29日），学名洪达，字伯骏，号潜斋，别号浅哉，江苏武进人，中国电影戏剧理论家、剧作家、导演" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=香港明星梅艳芳逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=我国著名戏剧家洪深出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
