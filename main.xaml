@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：奥本勒维耶宣布发现了“祝融星”，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：英国作家约翰·罗纳德·瑞尔·托尔金出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="祝融星（法文：Vulcain；德文：Vulkan；英文：Vulcan），也作火神星，是一个假设在太阳与水星之间运行的行星，这个十九世纪的假" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·罗纳德·鲁埃尔·托尔金，CBE（英语：John Ronald Reuel Tolkien，1892年1月3日－1973年9月2日），英国作家、诗人、语言学家" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=奥本勒维耶宣布发现了“祝融星”"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=英国作家约翰·罗纳德·瑞尔·托尔金出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
