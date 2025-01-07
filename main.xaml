@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：香港电视广播有限公司主席邵逸夫逝世，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：印尼著名爱国英雄蒂博·尼哥罗逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="邵逸夫原名邵仁楞，1907年生于浙江宁波镇海。香港电视广播有限公司荣誉主席，邵氏兄弟电影公司的创办人之一。[1] 邵家八兄" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="蒂博·尼哥罗（Diponegoro,1785—1855），1825—1830年印度尼西亚爪哇岛反抗荷兰殖民主义的人民起义（史称蒂博·尼哥罗起义,或爪哇战争）的主要领导人。是印度尼西亚爪哇岛日惹素丹的小王子。" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=香港电视广播有限公司主席邵逸夫逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=印尼著名爱国英雄蒂博·尼哥罗逝世"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
