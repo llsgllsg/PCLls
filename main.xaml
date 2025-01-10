@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：法国服装设计师加布里埃·香奈儿逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：天王星的两颗卫星被发现，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="Chanel品牌的创办人Coco Chanel，原名 “Gabrielle Bonheur Chanel ” ，中文名：加布里埃·可可·香奈儿，1883年出生于法国的Sau" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="天王星是从太阳系由内向外的第七颗行星，其体积在太阳系中排名第三（比海王星大），质量排名第四（小于海王星）。与在古代就为" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=法国服装设计师加布里埃·香奈儿逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=天王星的两颗卫星被发现"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
