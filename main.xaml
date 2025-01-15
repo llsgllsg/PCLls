@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：美国人权运动领袖马丁·路德·金出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：德国哲学家弗朗兹·布伦塔诺出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="中文名：马丁·路德·金英文名：Martin Luther King, Jr.1929年1月15日－1968年4月4日），著名的美国民权运动领袖。1948年大学毕" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="弗朗兹·布伦塔诺 [Franz Clemens Brentano 1838.01.16－1917.03.17]，德国哲学家、心理学家，意动心理学派的创始人。出生于莱茵" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=美国人权运动领袖马丁·路德·金出生"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=德国哲学家弗朗兹·布伦塔诺出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
