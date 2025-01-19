@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：戊戌变法主要领导人、资产阶级维新派主要人物梁启超逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：英国国王乔治五世逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="梁启超，中国近代思想家、政治家、教育家、史学家、文学家。他被公认为是中国历史上一位百科全书式人物，而且是一位在退出政治舞台后仍能在学术研究上取得巨大成就的少有人物。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="乔治五世（英语：George V，1865年6月3日－1936年1月20日），全名乔治·弗雷德里克·恩斯特·阿尔伯特（George Frederick Ernest A" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=戊戌变法主要领导人、资产阶级维新派主要人物梁启超逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=英国国王乔治五世逝世"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
