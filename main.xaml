@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：中国著名昆虫学家、进化分类学家陈世骧逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：苏联共产党副总书记苏斯洛夫去世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="陈世骧，昆虫学家，浙江嘉兴人，1928年毕业于复旦大学，1934年获法国巴黎大学博士学位，中国科学院动物研究所研究员、名誉所长" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1902年11月21日生于萨拉托夫省赫瓦伦斯克县的沙霍夫村镇（今乌里扬诺夫斯克州帕夫洛夫区）的贫农家庭。俄罗斯人。1918-1920年在沙霍夫村镇贫农委员会工作。1921年加入俄共（布）。1924年毕业于莫斯科工农专科学校。" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=中国著名昆虫学家、进化分类学家陈世骧逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=苏联共产党副总书记苏斯洛夫去世"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
