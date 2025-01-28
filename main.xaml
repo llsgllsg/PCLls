@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：墨西哥电信大亨卡洛斯·斯利姆·埃卢出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：英国国王乔治三世逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="卡洛斯·斯利姆·埃卢（西班牙语：Carlos Slim Helú，阿拉伯语：كارلوس سليم حلو‎，1940年1月28日－），经常被称为" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="乔治三世（英语：George III，1738年6月4日－1820年1月29日），全名乔治·威廉·弗雷德里克（George William Frederick），1760年" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=墨西哥电信大亨卡洛斯·斯利姆·埃卢出生"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=英国国王乔治三世逝世"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
