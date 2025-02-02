@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：军事理论家米哈伊尔·伏龙芝出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：农业教育家丁振麟出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="苏联红军统帅，军事理论家。开创了将革命激情和现代化武装相结合的道路。生于谢米列奇耶州皮什佩克城一医士家庭。1917年十月革" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="丁振麟（1911—1979），农业教育家和农学家，早年从事大豆遗传、生态和大麦区划研究并有许多论著；抗日战争胜利后，为" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=军事理论家米哈伊尔·伏龙芝出生"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=农业教育家丁振麟出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
