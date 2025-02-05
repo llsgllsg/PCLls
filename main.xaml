@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：中国现代文学家何其芳出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：美国南部遭龙卷风袭击，58人死亡，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="何其芳，男，1912年2月5日生于重庆万州，于1977年7月24日在北京逝世。他是中国伟大的诗人，散文家，小说家，文学研究家。言情写" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="水蒸气上升到天空遇冷成了云。云团温度低，对周围水蒸气冷却，水蒸气体积缩小，周围空气水蒸气补充空间，云团下面上升的水蒸气" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=中国现代文学家何其芳出生"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=美国南部遭龙卷风袭击，58人死亡"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
