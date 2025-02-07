@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：第18届冬奥会时隔二十六年后再一次在日本开幕，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：好莱坞电影配乐大师约翰·威廉姆斯出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1998年日本长野第十八届冬季奥运会是冬季奥运会在时隔26年后再一次来到日本。本届奥运会上，单板滑雪第一次成为奥运会的比赛项" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·威廉姆斯，出生于1932年2月8日，音乐家，电影配乐大师。有史以来最成功的电影作曲家，曾获得49次奥斯卡提名，其中五次获奖" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=第18届冬奥会时隔二十六年后再一次在日本开幕"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=好莱坞电影配乐大师约翰·威廉姆斯出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
