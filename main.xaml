@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：美国第九任总统威廉·亨利·哈里森出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：穆罕默德·纳吉布出任埃及总统，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="威廉·亨利·哈里森出身于弗吉尼亚种植者贵族家庭。他生于1773年(癸巳年)伯克利。是美国第九任总统（1841年3月4日--1841年4月4日" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="穆罕默德·纳吉布（Muhammad Naguib，1901年2月20日－1984年8月29日）埃及首任总统，武装部队总司令，中将，第一任埃及总统（195" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=美国第九任总统威廉·亨利·哈里森出生"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=穆罕默德·纳吉布出任埃及总统"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
