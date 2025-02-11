@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：中国相声泰斗马三立逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：夏威夷王国卡拉卡瓦国王登基，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="马三立 （1914.10.1～2003.2.11）著名相声表演大师。回族，甘肃省永昌县人，中共党员。曾任中国曲艺家协会顾问、天津市曲艺家协" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="卡拉卡瓦国王（David Kalākaua，正式全名David La‘amea Kamanakapu‘u Mahinulani Nalaiaehuokalani Lumialani Kalākaua，18" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=中国相声泰斗马三立逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=夏威夷王国卡拉卡瓦国王登基"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
