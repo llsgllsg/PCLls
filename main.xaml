@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：葡萄牙正式被承认独立，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：英格兰国王理查二世逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="葡萄牙，全称葡萄牙共和国（英语：The Portuguese Republic，葡萄牙语：República Portuguesa），是一个位于欧洲西南部的共和制" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="英格兰国王(1377～1399)。黑太子爱德华之子。1377年继承祖父爱德华三世的王位。因年幼，由其叔父冈特的约翰执掌朝政。他曾表现" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=葡萄牙正式被承认独立"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=英格兰国王理查二世逝世"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
