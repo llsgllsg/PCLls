@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：奥地利物理学家路德维希·玻尔兹曼出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：英国探险远征队发现了格陵兰岛，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="奥地利物理学家，热力学和统计力学的奠基人之一。玻尔兹曼1844年出生于奥地利的维也纳，1866年获得维也纳大学博士学位。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="格陵兰岛（英语：Greenland；丹麦语作：Gronland，格陵兰语作Kalaallit Nunaat）世界最大岛，面积2,166,086平方公里，在北美洲" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=奥地利物理学家路德维希·玻尔兹曼出生"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=英国探险远征队发现了格陵兰岛"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
