@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：抗日烈士杨靖宇逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：中国小说家蒲松龄逝世，类型：死亡" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="杨靖宇（1905——1940），原名马尚德，字骥生，汉族，河南省确山县人，中国共产党优秀党员，无产阶级革命家，军事家、著名抗日" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="蒲松龄字留仙，又字剑臣，号柳泉居士，世称聊斋先生，40岁时完成志怪小说《聊斋志异》，被马瑞芳称为“世界短篇小说之王”。郭沫若先生也赞其“写鬼写妖高人一等，刺探次虐入木三分”。" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=抗日烈士杨靖宇逝世"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=中国小说家蒲松龄逝世"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
