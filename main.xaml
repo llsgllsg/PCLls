@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：香港跑马地马场大火，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：美国小说家斯坦贝克出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="跑马地古称黄泥涌，又称快活谷。位于香港特别行政区湾仔区中南部，是香港早期开发的地区之一，建有中高级住宅。.baseInfoWrap{d" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·斯坦贝克，20世纪美国最有影响力的作家之一。他熟悉社会底层的人们，许多作品都以他们为主人公，表现了底层人的善良、质朴" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=香港跑马地马场大火"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=美国小说家斯坦贝克出生"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
