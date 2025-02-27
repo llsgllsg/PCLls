@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：美国小说家斯坦贝克出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：阿富汗宣布独立，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·斯坦贝克，20世纪美国最有影响力的作家之一。他熟悉社会底层的人们，许多作品都以他们为主人公，表现了底层人的善良、质朴" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="阿富汗斯坦伊斯兰共和国（简称阿富汗斯坦或阿富汗）（Islamic Republic of Afghanistan）。代码A，简称A.F.G或AF。" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=美国小说家斯坦贝克出生"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=阿富汗宣布独立"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
