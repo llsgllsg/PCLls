@@ -3,13 +3,13 @@
         <local:MyImage Height="200" HorizontalAlignment="Center" Source="https://cn-sy1.rains3.com/123456/tp.png" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="事件：前苏联政治活动家莫洛托夫出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="事件：第一次布匿战争结束，类型：事件" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="维亚切斯拉夫·米哈伊洛维奇·莫洛托夫（Vyacheslav Mikhaylovich Molotov，1890.3.9－1986），1930年-1941年任苏联人民委员会主" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="第一次布匿战争是在古罗马和迦太基之间的三次布匿战争的第一次战争，于前264年到前241年之间。两国冲突是因为争夺地中海沿岸地" />
 	</StackPanel>
           <local:MyListItem Margin="0,0,0,0"
                Logo="pack://application:,,,/images/blocks/Grass.png" Title="搜索相关内容
-"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=前苏联政治活动家莫洛托夫出生"            Type="Clickable" /></local:MyCard>
+"               Info="使用Bing搜索相关内容" EventType="打开网页" EventData="https://cn.bing.com/search?q=第一次布匿战争结束"            Type="Clickable" /></local:MyCard>
 
 <local:MyCard Margin="0,-6,0,12" Title="欢迎">
      <StackPanel Margin="24,35,24,15">
